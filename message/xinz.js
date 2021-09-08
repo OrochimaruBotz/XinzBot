@@ -321,7 +321,7 @@ module.exports = async(xinz, msg, blocked, baterai, _afk, welcome, left) => {
         }
 
         // Auto Read
-        xinz.chatRead(from, "read")
+        //xinz.chatRead(from, "read")
 
         // CMD
         if (isCmd && !isGroup) {
